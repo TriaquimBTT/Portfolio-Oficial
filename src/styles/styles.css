@@ -96,3 +96,29 @@ section.sobre .flex img{
 .sobre .simbolo img{
     width: 100px;
 }
+
+/*ESTILOS CONHECIMENTOS*/
+section.conhecimentos{
+    padding: 40px 6%;
+}
+
+section.conhecimentos .titulo{
+    margin-bottom: 60px;
+}
+
+section.conhecimentos .flex{
+    justify-content: space-between;
+}
+
+.conhecimentos .content{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.conhecimentos .box-conhecimentos{
+    width: 25vw;
+    height: 40vh;
+    border: 1px solid #f1f1f1;
+    border-radius: 45px;
+}
