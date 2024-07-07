@@ -154,3 +154,28 @@ section.conhecimentos .flex{
     gap: 20%;
 }
 
+/*ESTILOS PROJETOS*/
+section.projetos{
+    padding: 40px 6%;
+}
+
+section.projetos .content{
+    margin-top: 50px;
+}
+
+section.projetos .flex{
+    gap: 108px;
+    justify-content: space-evenly;
+}
+
+.projetos img{
+    width: 440px;
+}
+
+.projetos .txt-projeto{
+    margin: 0 0px 0px 150px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
