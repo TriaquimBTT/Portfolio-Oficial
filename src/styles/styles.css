@@ -117,8 +117,40 @@ section.conhecimentos .flex{
 }
 
 .conhecimentos .box-conhecimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 25vw;
     height: 40vh;
     border: 1px solid #f1f1f1;
     border-radius: 45px;
+    transition: 0.3s;
 }
+
+.conhecimentos .box-conhecimentos:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #f1f1f1;
+    cursor: pointer;
+}
+
+.conhecimentos .box-conhecimentos a, .conhecimentos .box-conhecimentos p{
+    text-align: center;
+    color: #f1f1f18e;
+    font-size: 18px;
+}
+
+.conhecimentos .box-conhecimentos a:hover, .conhecimentos .box-conhecimentos p:hover{
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+.conhecimentos .box-conhecimentos i{
+    text-align: center;
+}
+
+.conhecimentos .box-conhecimentos .icons{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
